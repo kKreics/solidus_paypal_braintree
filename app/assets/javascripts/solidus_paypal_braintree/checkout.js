@@ -1,6 +1,7 @@
 //= require solidus_paypal_braintree/frontend
 
 $(function() {
+  console.log('Braintree initialized');
   /* This provides a default error handler for Braintree. Since we prevent
    * submission if tokenization fails, we need to manually re-enable the
    * submit button. */
